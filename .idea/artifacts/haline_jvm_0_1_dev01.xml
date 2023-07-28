@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="haline-jvm-0.1-dev01">
+    <output-path>$PROJECT_DIR$/haline/build/libs</output-path>
+    <root id="archive" name="haline-jvm-0.1-dev01.jar">
+      <element id="module-output" name="haline-theme.haline.jvmMain" />
+    </root>
+  </artifact>
+</component>
