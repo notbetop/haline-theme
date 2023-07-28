@@ -15,4 +15,5 @@ pluginManagement {
     }
 }
 
+include(":example")
 include(":haline")

@@ -17,7 +17,6 @@ kotlin {
     sourceSets {
         val jvmMain by getting {
             dependencies {
-                implementation(compose.desktop.currentOs)
                 implementation(compose.desktop.common) {
                     // remove material
                     exclude("org.jetbrains.compose.material")
