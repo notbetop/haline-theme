@@ -19,7 +19,7 @@ kotlin {
             dependencies {
                 implementation(compose.desktop.currentOs)
                 implementation(compose.desktop.common) {
-                    // 移除 material
+                    // remove material
                     exclude("org.jetbrains.compose.material")
                 }
             }
