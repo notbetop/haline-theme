@@ -21,11 +21,11 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementSkiko()
-                implementation(compose.desktop.currentOs)
-                implementation(compose.desktop.common) {
+                implementation(compose.desktop.currentOs){
                     // remove material
                     exclude("org.jetbrains.compose.material")
                 }
+                implementation(project(":haline"))
             }
         }
         val jvmTest by getting
