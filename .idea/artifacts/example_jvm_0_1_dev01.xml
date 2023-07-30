@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="example-jvm-0.1-dev01">
+    <output-path>$PROJECT_DIR$/example/build/libs</output-path>
+    <root id="archive" name="example-jvm-0.1-dev01.jar">
+      <element id="module-output" name="haline-theme.example.jvmMain" />
+    </root>
+  </artifact>
+</component>
